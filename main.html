@@ -7,20 +7,36 @@
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-	<div>
-		<ul>
-			<li>
-				<a href ='https://en.wikipedia.org/wiki/Golden_Retriever'>
-					<img src ="https://upload.wikimedia.org/wikipedia/commons/c/cf/BassetHound_profil.jpg", alt = "Golden Retriever">
-				</a>
-			</li>
-			<li>
-				<a href ="https://en.wikipedia.org/wiki/Poodle">
-				<img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Full_attention_%288067543690%29.jpg/1280px-Full_attention_%288067543690%29.jpg", alt = "Poodle"></a>
-			</li>
-		</ul>
-	</div>
+	<form action ="#" method ="post">
+	<label for="name">Name</label>
+		<input type="text" required id="name" placeholder="Name">
+		
+		<label for="email">Email</label>
+		<input type="email" required id="email" placeholder="Email">
+
+		<label for="gender">Gender</label>
+		<input type="radio" required id="gender_m, gender_f" name="gender">
+
+		<label for="cars">Car Brands</label>
+		<input type="select" required id="cars" placeholder="--Please choose an option--" >
+
+		<label for="age">Age</label>
+		<input type="number" required id="age" placeholder="Age">
+
+		<label for="dob">DOB</label>
+		<input type="date" required id="dob">
+
+		<label for="tel">Phone Number</label>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+
+		<label for="password">Password</label>
+		<input type="password" required id="password" placeholder="Password">
+
+		<label for ="tos">I agree to the TOS</label>
+		<input type="checkbox" required id="tos">
+
+		<button type="submit">Submit</button>
+			</form>
     <script type="text/javascript" src="./script.js">
 </script>
 
